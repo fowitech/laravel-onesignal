@@ -1,0 +1,46 @@
+{
+    "name": "fowitech/laravel-onesignal",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "fowitech",
+        "laravel",
+        "onesignal",
+        "notifications"
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/auth": "^8.12|^9.0|^10.0",
+        "illuminate/container": "^8.12|^9.0|^10.0",
+        "illuminate/contracts": "^8.12|^9.0|^10.0",
+        "illuminate/database": "^8.12|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fowitech\\OneSignal\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fowitech\\OneSignal\\OneSignalServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "Fowitech\\OneSignal\\Facades\\OneSignal"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Oğuzhan Subaşı",
+            "email": "subasioguz@gmail.com"
+        }
+    ]
+}
