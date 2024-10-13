@@ -10,10 +10,10 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/auth": "^8.12|^9.0|^10.0",
-        "illuminate/container": "^8.12|^9.0|^10.0",
-        "illuminate/contracts": "^8.12|^9.0|^10.0",
-        "illuminate/database": "^8.12|^9.0|^10.0"
+        "illuminate/auth": "^8.12",
+        "illuminate/container": "^8.12",
+        "illuminate/contracts": "^8.12",
+        "illuminate/database": "^8.12"
     },
     "autoload": {
         "psr-4": {
